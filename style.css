@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(17, 68, 4);
+  color: greenyellow;
+  font-family: cursive;
+}
+
+p {
+  font-size: large;
+}
+
+#title {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 3px solid green;
+  border-radius: 10px;
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(14, 94, 14);
+  border-style: inset;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.post,
+.user-post,
+.user-comment {
+  background-color: rgb(16, 131, 35);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.user-post {
+  margin-bottom: 15px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: rgb(127, 219, 21);
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#user-page-container {
+  padding: 20px;
+}
+
+#post-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#user-info {
+  text-align: center;
+  background-color: rgb(19, 143, 39);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#back-button {
+  margin-bottom: 10px;
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
